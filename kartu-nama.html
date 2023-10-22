@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kartu Nama</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        background-color: #015661;
+        font-family: 'Poppins', sans-serif;
+      }
+
+      .box-kartu {
+        background-color: #ece4d3;
+        border-radius: 20px;
+        width: 350px;
+        margin: 50px auto;
+        box-shadow: 40px 40px 40px rgb(0 0 0 / 0.15);
+      }
+
+      .foto img {
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+      }
+
+      .box-putih {
+        padding: 15px 30px;
+      }
+
+      .nama {
+        margin: 0;
+        color: #579d7c;
+        font-weight: 500;
+      }
+
+      .jabatan {
+        margin-top: 0;
+        color: #3f4035;
+      }
+
+      .quote {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 16px;
+        color: #3f4035;
+        font-weight: 600;
+        margin-bottom: 35px;
+      }
+
+      .sosmed {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+
+      .sosmed a {
+        color: #579d7c;
+        text-decoration: none;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box-kartu">
+      <div class="foto">
+        <img src="assets/img/tfkhdyt.jpg" alt="Gambar" />
+      </div>
+      <div class="box-putih">
+        <h1 class="nama">Taufik <em>Hidayat</em></h1>
+        <p class="jabatan">Back-end Developer</p>
+        <p class="quote">"Jews lie more than they breathe"</p>
+        <div class="sosmed">
+          <a href="https://tfkhdyt.my.id" class="homepage">tfkhdyt.my.id</a>
+          <a href="mailto:me@tfkhdyt.my.id" class="email">me@tfkhdyt.my.id</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
